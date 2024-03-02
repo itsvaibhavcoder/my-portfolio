@@ -19,3 +19,4 @@ const Typewriter = ({ text }) => {
 };
 
 export default Typewriter;
+
