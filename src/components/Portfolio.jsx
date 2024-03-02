@@ -2,23 +2,30 @@ import React from "react";
 import cashFlow from "../assets/portfolio/cashFlow.png";
 import noteKeeper from "../assets/portfolio/noteKeeper.png";
 import weatherApp from "../assets/portfolio/weatherApp.png";
+import Ecommerce from "../assets/portfolio/e-Commerce.png";
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
+      src: Ecommerce,
+      demoLink: "#",
+      codeLink: "https://github.com/itsvaibhavcoder/E-Commerce-App"
+    },
+    {
+      id: 2,
       src: cashFlow,
       demoLink: "https://minimize-cashflow.netlify.app/",
       codeLink: "https://github.com/itsvaibhavcoder/Web-Development-Projects/tree/main/Splitwise%20Cashflow%20Minimization"
     },
     {
-      id: 2,
+      id: 3,
       src: weatherApp,
       demoLink: "https://skyinsight.netlify.app/",
       codeLink: "https://github.com/itsvaibhavcoder/Web-Development-Projects/tree/main/Weather%20App"
     },
     {
-      id: 3,
+      id: 4,
       src: noteKeeper,
       demoLink: "https://keep-safe.netlify.app/",
       codeLink: "https://github.com/itsvaibhavcoder/ReactProjects/tree/main/keeperapp"

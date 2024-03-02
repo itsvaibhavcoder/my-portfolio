@@ -6,6 +6,8 @@ import javascript from "../assets/javascript.png";
 import reactImage from "../assets/react.png";
 import github from "../assets/github.png";
 import CPP from "../assets/C++.png";
+import Java from "../assets/Java.png";
+import Python from "../assets/Python.png";
 import { Link } from "react-scroll";
 
 const Experience = () => {
@@ -46,6 +48,18 @@ const Experience = () => {
         title: "C++",
         style: "shadow-blue-500",
       },
+      {
+        id: 7,
+        src: Java,
+        title: "Java",
+        style: "shadow-red-500",
+      },
+      {
+        id: 8,
+        src: Python,
+        title: "Python",
+        style: "shadow-yellow-500",
+      },
   ];
 
   return (
@@ -58,7 +72,7 @@ const Experience = () => {
           <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
             Technologies
           </p>
-          <p className="py-6">These are the technologies I've worked with</p>
+          <p className="py-6">These are the technologies I have worked with</p>
         </div>
 
         <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
