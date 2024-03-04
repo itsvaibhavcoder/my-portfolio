@@ -181,7 +181,6 @@
 
 import React from "react";
 import cashFlow from "../assets/portfolio/cashFlow.png";
-import noteKeeper from "../assets/portfolio/noteKeeper.png";
 import weatherApp from "../assets/portfolio/weatherApp.png";
 import Ecommerce from "../assets/portfolio/e-Commerce.png";
 import superHero from "../assets/portfolio/superHero.png";
