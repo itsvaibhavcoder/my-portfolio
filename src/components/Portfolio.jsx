@@ -212,20 +212,13 @@ const Portfolio = () => {
     },
     {
       id: 4,
-      title: "Note Keeper",
-      src: noteKeeper,
-      demoLink: "https://keep-safe.netlify.app/",
-      codeLink: "https://github.com/itsvaibhavcoder/ReactProjects/tree/main/keeperapp"
-    },
-    {
-      id: 5,
       title: "Superhero Search",
       src: superHero,
       demoLink: "https://search-superhero.netlify.app/",
       codeLink: "https://github.com/itsvaibhavcoder/Javascript-Mastery/tree/main/Superhero%20App"
     },
     {
-      id: 6,
+      id: 5,
       title: "Netflix Clone",
       src: netFlix,
       demoLink: "https://netflix-clonne.netlify.app/",
