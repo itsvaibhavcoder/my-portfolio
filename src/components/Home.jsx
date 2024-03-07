@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from '../assets/Image.jpg';
+import Image from '../assets/selfImg.png';
 import { MdOutlineKeyboardArrowRight } from 'react-icons/md';
 import { Link } from 'react-scroll';
 import Typewriter from './Typewriter';
@@ -12,9 +12,9 @@ const Home = () => {
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
-          <h2 className="text-2xl sm:text-7xl font-bold text-white">
+          <h4 className="text-2xl sm:text-7xl font-bold text-white">
             <Typewriter text="I'm a Frontend Developer and Programmer." />
-          </h2>
+          </h4>
           <p className="text-gray-500 py-4 max-w-md">
             I love to work on web applications using technologies like React,
             Tailwind, HTML, CSS, and JavaScript, REST APIs.
@@ -39,7 +39,7 @@ const Home = () => {
           <img
             src={Image}
             alt="my profile"
-            className="rounded-3xl mx-auto w-2/3 md:w-full pb-3"
+            className="rounded-3xl mx-auto w-4/5 md:w-full pb-3"
           />
         </div>
       </div>
