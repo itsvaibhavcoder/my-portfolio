@@ -93,6 +93,7 @@ import weatherApp from "../assets/portfolio/weatherApp.png";
 import Ecommerce from "../assets/portfolio/e-Commerce.png";
 import superHero from "../assets/portfolio/superHero.png";
 import netFlix from "../assets/portfolio/netFlix.png";
+import gemini from "../assets/portfolio/gemini.png";
 
 const Portfolio = () => {
   const portfolios = [
