@@ -134,7 +134,7 @@ const Portfolio = () => {
     {
       id: 6,
       title: "Gemini Clone",
-      src: netFlix,
+      src: gemini,
       demoLink: "https://hey-gemini.netlify.app/",
       codeLink: "https://github.com/itsvaibhavcoder/gemini-clone-react"
     }
