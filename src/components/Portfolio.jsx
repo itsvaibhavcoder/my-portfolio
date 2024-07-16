@@ -130,6 +130,13 @@ const Portfolio = () => {
       src: netFlix,
       demoLink: "https://netflix-clonne.netlify.app/",
       codeLink: "https://github.com/itsvaibhavcoder/Javascript-Mastery/tree/main/Netflix%20Clone"
+    },
+    {
+      id: 6,
+      title: "Gemini Clone",
+      src: netFlix,
+      demoLink: "https://hey-gemini.netlify.app/",
+      codeLink: "https://github.com/itsvaibhavcoder/gemini-clone-react"
     }
   ];
 
