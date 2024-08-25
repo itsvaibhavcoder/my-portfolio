@@ -90,19 +90,19 @@
 import React from "react";
 import cashFlow from "../assets/portfolio/cashFlow.png";
 import weatherApp from "../assets/portfolio/weatherApp.png";
-import Ecommerce from "../assets/portfolio/e-Commerce.png";
+import Youtube from "../assets/portfolio/youtube.png";
 import superHero from "../assets/portfolio/superHero.png";
-import netFlix from "../assets/portfolio/netFlix.png";
+import KeepNote from "../assets/portfolio/keepNote.png";
 import gemini from "../assets/portfolio/gemini.png";
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      title: "E-Commerce App",
-      src: Ecommerce,
-      demoLink: "#",
-      codeLink: "https://github.com/itsvaibhavcoder/E-Commerce-App"
+      title: "Youtube Clone",
+      src: Youtube,
+      demoLink: "https://utube-project.netlify.app/",
+      codeLink: "https://github.com/itsvaibhavcoder/UTubeClone"
     },
     {
       id: 2,
@@ -127,10 +127,10 @@ const Portfolio = () => {
     },
     {
       id: 5,
-      title: "Netflix Clone",
-      src: netFlix,
-      demoLink: "https://netflix-clonne.netlify.app/",
-      codeLink: "https://github.com/itsvaibhavcoder/Javascript-Mastery/tree/main/Netflix%20Clone"
+      title: "Keep Note",
+      src: KeepNote,
+      demoLink: "https://keep-safe.netlify.app/",
+      codeLink: "https://github.com/itsvaibhavcoder/ReactProjects/tree/main/keeperapp"
     },
     {
       id: 6,
